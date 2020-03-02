@@ -1,10 +1,15 @@
-# pythonScrapers
-This is the code that has been written to scrape guitars and its attributes such as; images, description, price and title
-from following websites: "guitarguitar","dawsons","richtonemusic"
+# Python-Scrapers-Instruments4u
 
-Code makes use of the following modules:
--requests
--BeautifulSoup
--time
--re
--firebase_admin
+These scrapers have been written to scrape guitar and it's attributes from several UK retailers in-order to save them into Firebase as well as Algolia for the purpose of developing Instruments4u.
+
+## Live
+View the website here:
+https://ctpwebsite-c33ff.firebaseapp.com/
+
+
+## Built With
+* [BeautifulSoup4](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) - Framework used
+
+## Notes
+
+Scrapers have been turned off to save space at Algolia as well as Firebase!
